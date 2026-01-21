@@ -1,0 +1,106 @@
+{
+  "layout": {
+    "main_title": "Social Support Portal"
+  },
+  "footer": {
+    "copyright": "@2026 Government Social Support Portal",
+    "rights": "All rights reserved"
+  },
+  "wizard": {
+    "steps": {
+      "personal": { "name": "Personal Information", "desc": "Enter your ID & contact" },
+      "financial": { "name": "Family & Financial", "desc": "Check support eligibility" },
+      "situation": { "name": "Situation Descriptions", "desc": "AI Assistance" }
+    },
+    "navigation": {
+      "back": "Back",
+      "next": "Next Step",
+      "submit": "Submit Application"
+    }
+  },
+  "success": {
+    "title": "Application Submitted",
+    "message": "Your request for social support has been successfully received by our department.",
+    "reference_label": "Reference Number",
+    "button": "Return to Home",
+    "email_note": "A confirmation email has been sent to your registered address."
+  },
+  "personal": {
+    "title": "Personal Information",
+    "subtitle": "Please provide your identity and contact details as they appear on your Emirates ID.",
+    "fields": {
+      "name": { "label": "Full Name", "placeholder": "As per Identity Card" },
+      "nationalId": { "label": "National ID" },
+      "dob": { "label": "Date of Birth" },
+      "gender": { "label": "Gender", "placeholder": "Select gender" },
+      "country": { "label": "Country", "placeholder": "Select Country" },
+      "state": { 
+        "label": "State / Emirate", 
+        "placeholder_active": "Select State", 
+        "placeholder_inactive": "Select Country First" 
+      },
+      "city": { 
+        "label": "City", 
+        "placeholder_active": "Select City", 
+        "placeholder_inactive": "Select State First" 
+      },
+      "phone": { "label": "Phone Number" },
+      "email": { "label": "Email Address" },
+      "address": { "label": "Residential Address", "placeholder": "Building, Street, Area" }
+    }
+  },
+  "financial": {
+    "title": "Financial & Family Status",
+    "subtitle": "This information helps us determine your eligibility for support.",
+    "fields": {
+      "maritalStatus": { "label": "Marital Status", "placeholder": "Choose status..." },
+      "dependents": { "label": "Number of Dependents", "placeholder": "e.g. 2" },
+      "employmentStatus": { "label": "Employment Status", "placeholder": "Choose status..." },
+      "monthlyIncome": { "label": "Monthly Income (AED)", "placeholder": "e.g. 15000" },
+      "housingStatus": { "label": "Housing Status", "placeholder": "Select housing type..." }
+    },
+    "note": {
+      "title": "Note:",
+      "text": "Please ensure your monthly income is correct. You may be asked to few supporting questions in the next stage."
+    }
+  },
+  "situation": {
+    "title": "Situation Descriptions",
+    "subtitle": "Explain your current situation to support your application.",
+    "common": {
+      "placeholder": "Please provide details here..."
+    },
+    "fields": {
+      "financial": {
+        "label": "Current Financial Situation",
+        "helper": "Min 30 chars and maximum 500"
+      },
+      "employment": {
+        "label": "Employment Circumstances",
+        "helper": "Min 30 chars and maximum 500"
+      },
+      "reason": {
+        "label": "Reason for Applying",
+        "helper": "Min 30 chars and maximum 500"
+      }
+    }
+  },
+  "ai": {
+    "status": {
+      "loading": "AI is thinking...",
+      "error": "Try again?",
+      "idle": "Help me write"
+    },
+    "errors": {
+      "rate_limit": "AI is busy (Limit reached). Try later.",
+      "generic": "AI Assistant is currently unavailable.",
+      "no_connection": "Connection timed out. Retrying..."
+    }
+  },
+  "ai_modal": {
+    "title": "AI Suggestion for",
+    "discard": "Discard",
+    "accept": "Accept & Use",
+    "thinking": "AI is thinking..."
+  }
+}

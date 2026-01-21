@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Primary (UAE Gold) */
+  --color-primary: #92722a;
+  --color-primary-hover: #7c5e24;
+  --color-primary-foreground: #ffffff;
+
+  /* Accent (UAE Green) */
+  --color-accent: #4a9d5c;
+  --color-accent-hover: #3d824c;
+  --color-accent-foreground: #ffffff;
+
+  /* Secondary */
+  --color-secondary: #5f646d;
+  --color-secondary-hover: #4b4f58;
+  --color-secondary-foreground: #ffffff;
+
+  /* Destructive */
+  --color-destructive: #b52520;
+  --color-destructive-hover: #ea4f49;
+  --color-destructive-foreground: #ffffff;
+
+  /* Muted */
+  --color-muted: #f9f7ed;
+  --color-muted-foreground: #5f646d;
+
+  /* Background & Surface */
+  --color-background: #ffffff;
+  --color-surface: #f7f7f7;
+  --color-foreground: #1b1d21;
+
+  /* Border */
+  --color-border: #e1e1e1;
+  --color-input: #ffffff;
+  --color-ring: #92722a;
+
+  /* Text colors  */
+  --color-text: #414141;
+  --color-text-secondary: #5f646d;
+  --color-text-muted: #8e949e;
+
+  /* Status */
+  --color-status-credit: #4a9d5c;
+  --color-status-debit: #b52520;
+  --color-status-pending: #cba344;
+  --color-status-info: #0073ab;
+
+  --color-footer-background: #333;
+
+  /* Base radius (u.ae uses slightly sharper corners, but keeping your 8px default) */
+  --radius: 0.5rem;
+
+  /* Radius */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  /* Table */
+  --color-table-row-hover: #f1f1f1;
+  --color-sparkle-gold: #f5c900;
+}
